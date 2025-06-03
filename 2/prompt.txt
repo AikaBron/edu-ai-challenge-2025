@@ -1,0 +1,16 @@
+Please help me convert the following informal bug report into a well-structured bug ticket. The ticket should include the following sections:
+
+Title – A brief summary of the issue.
+
+Description – A clear explanation of the problem, including what is happening and any relevant details.
+
+Steps to Reproduce – A list of steps that can be followed to reproduce the bug.
+
+Expected vs Actual Behavior – What the expected behavior is vs what is actually happening.
+
+Environment (if known) – Information on the environment (e.g., browser version, OS, device type, etc.).
+
+Severity or Impact – The impact level of the issue (e.g., critical, high, medium, low) and how it affects users.
+
+Bug report to convert:
+“Logout button doesn’t work on Safari. It just doesn’t respond.”
