@@ -1,0 +1,16 @@
+{
+  "summary": "The text discusses the rise of remote work, particularly after the global pandemic, highlighting its benefits such as increased employee satisfaction, flexibility, and reduced operational costs. It also outlines challenges including isolation, decreased productivity, and management difficulties. Despite these issues, remote work is expected to persist, with hybrid models and technological advancements supporting its continued adoption.",
+  "sentiment_class": "positive",
+  "sentiment_score": 0.4,
+  "metadata": {
+    "word_count": 235,
+    "main_topics": [
+      "remote work",
+      "employee satisfaction",
+      "productivity",
+      "hybrid work models",
+      "technology in remote work"
+    ],
+    "tone": "informative and cautiously optimistic"
+  }
+}
