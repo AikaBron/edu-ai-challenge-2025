@@ -1,0 +1,58 @@
+You are provided with the following JavaScript code snippet:
+
+javascript
+Копировать
+Редактировать
+function processUserData(data: any) {
+  var users = [];
+
+  for (var i = 0; i < data.length; i++) {
+    var user = {
+      id: data[i].id,
+      name: data[i].name,
+      email: data[i].email,
+      active: data[i].status === 'active' ? true : false
+    };
+    users.push(user);
+  }
+  console.log("Processed " + users.length + " users");
+  return users;
+}
+
+function saveToDatabase(users) {
+  //TODO: Implement database connection
+  var success = true;
+  return success;
+}
+Please analyze the code sequentially from the perspectives of the following expert roles:
+
+👨‍💻 1. Experienced Developer
+Focus on code quality, readability, and maintainability.
+
+Identify redundant constructs, use of outdated syntax, naming issues, or structural improvements.
+
+Provide specific suggestions to modernize or refactor the code.
+
+🔐 2. Security Engineer
+Focus on data validation, type safety, exposure risks, and potential vulnerabilities.
+
+Review how input is handled, especially concerning trust boundaries.
+
+Provide concrete improvements to harden the function against typical JavaScript/TypeScript risks.
+
+🚀 3. Performance Specialist
+Focus on loop efficiency, memory usage, and potential bottlenecks.
+
+Consider implications of input size and runtime behavior.
+
+Offer tangible optimizations that would improve performance at scale.
+
+For each role, return a distinct section of feedback, including:
+
+A brief summary of overall assessment
+
+A list of specific, actionable recommendations
+
+Optional: improved code snippets where relevant
+
+The final result should be structured with clear headers for each expert persona.
