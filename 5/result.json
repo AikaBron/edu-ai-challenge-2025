@@ -1,0 +1,68 @@
+🧪 Sample 1:
+"Sensor just stops tracking for like a half second kinda often even at 8000hz. I've also tried it plugged in and still the same problem. First one I got I had to return also because the dongle just didnt work, $150 mouse btw"
+
+🤔 Chain-of-Thought Reasoning:
+The user describes multiple hardware issues: sensor interruptions and dongle malfunction.
+
+Mentions attempts to troubleshoot (wired vs wireless).
+
+References the high price ($150) in frustration.
+✅ Relevant: Yes — clearly relates to performance and hardware reliability.
+
+✅ JSON Output:
+{
+  "sentiment": "Negative",
+  "isRelevant": true,
+  "mainSubject": "Sensor and dongle reliability issues",
+  "positives": [],
+  "painPoints": [
+    "Sensor intermittently stops tracking",
+    "Issue persists even when wired",
+    "Dongle failed on first unit",
+    "High price for underperforming hardware"
+  ],
+  "improvementSuggestions": [
+    "Improve sensor stability at high polling rates",
+    "Ensure dongle reliability across units",
+    "Quality control improvements for hardware"
+  ],
+  "featuresMentioned": [
+    "Sensor",
+    "Dongle",
+    "Polling rate",
+    "Wireless performance"
+  ],
+  "userExpertise": "Experienced"
+}
+🧪 Sample 2:
+"Is it worth it? It is a product with no flaws in my opinion, if you love it go for it, but its not worth the price since you'll be able to perform the same with a cheaper product with half the specs."
+
+🤔 Chain-of-Thought Reasoning:
+User believes product works flawlessly (positive), but price doesn't justify it (negative).
+
+Suggests other cheaper alternatives offer similar performance.
+✅ Relevant: Yes — touches on value for money, performance, and recommendation.
+
+✅ JSON Output:
+{
+  "sentiment": "Mixed",
+  "isRelevant": true,
+  "mainSubject": "Price versus performance",
+  "positives": [
+    "Flawless performance",
+    "Good for those who love it"
+  ],
+  "painPoints": [
+    "Not worth the high price",
+    "Cheaper products offer similar performance"
+  ],
+  "improvementSuggestions": [
+    "Lower the price or differentiate more on features"
+  ],
+  "featuresMentioned": [
+    "Price",
+    "Performance",
+    "Specifications"
+  ],
+  "userExpertise": "Experienced"
+}
